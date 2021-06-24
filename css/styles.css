@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+p{ 
+    font-weight: 400;
+}
+/* header */
+header{
+    background: #F0A83E;
+}
+nav ul li, .paw-nav{
+    color:white;
+}
+h1, .copyright, .elements-top-header{
+    color: white;
+    font-weight: 700;
+}
+.h1-span, .product-name, h3, .h2-heroe{
+    color: rgba(60, 35, 19, 1);
+    font-weight: 400;
+}
+.principal-header{
+    display: flex;
+    align-items: center;
+    max-width: 90vw;
+    justify-content: space-between;
+    margin: 0 auto
+}
+.ul-nav{
+    display: flex;
+}
+
+/* main */
+main{
+}
+.comederos-button{
+    width: 141px;
+    background: #F0A83E;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1em;
+}
+.heroe{
+    background: #F0A83E url("../img/bowl.png");
+    background-size: cover;
+    width: 100vw;
+    height: 409px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.heroe-div{
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.paw, .price{
+    color: #F0A83E;
+}
+.paw{
+    width: 67px;
+    height: 71px;
+
+
+}
+.cards-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.h2-heroe{
+    background-color: white;
+    font-weight: 400;
+    padding: 0.5em;
+
+}
+
+.card{
+    background: #FBFAF6;
+    width: 264px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* footer */
+footer{
+    background: #3C2313;
+
+}
+.top-header{
+    width: 100vw;
+    background: #222222;
+}
+.top-footer{
+    display: flex;
+}
+.copyright{
+    text-align: center;
+}
+/* .bottom-footer{
+    bottom: 0;
+} */
