@@ -7,11 +7,16 @@ body{
 a{
     text-decoration: none;
 }
+
 li{
     list-style-type: none;
 }
 p{ 
     font-weight: 400;
+}
+
+img{
+    max-width: 100%;
 }
 /* header */
 header{
@@ -71,13 +76,11 @@ main{
     flex-direction: column;
     align-items: center;
 }
-.paw, .price{
+.paw, .price, .h3-logo-footer{
     color: #F0A83E;
 }
 .paw{
-    width: 67px;
-    height: 71px;
-
+    font-size: 67px;
 
 }
 .cards-div{
@@ -103,22 +106,75 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2%;
 }
 /* footer */
 footer{
     background: #3C2313;
 
 }
+
 .top-header{
     width: 100vw;
     background: #222222;
 }
 .top-footer{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90vw;
+    margin: 0 auto;
 }
 .copyright{
     text-align: center;
 }
-/* .bottom-footer{
-    bottom: 0;
-} */
+.bottom-footer{
+    background-color: rgba(34, 34, 34, 1);
+}
+.all-footer-data{
+    display: flex;
+}
+.contact-information{
+    display: flex;
+    flex-direction: column;
+
+}
+.img-information{
+    box-sizing: border-box;
+    width: 58px;
+    height: 57px;
+    background: #8A8787;
+    border: solid 3px rgba(120, 105, 96, 1);
+    border-radius: 50%;
+    /* padding: 15px; */
+}
+.h3-footer-data, .h3-span{
+    color: #FFFFFF;
+}
+.footer-description{
+    color: rgba(138, 135, 135, 1);
+}
+
+.logo-div-footer{
+    display: flex;
+    align-items: center
+}
+
+@media (max-width:480px){
+    /* header */
+    nav{
+        display: none;
+    }
+
+    /* main */
+
+    .heroe-div{
+        align-items: flex-end;
+    }
+    .comederos-button{
+        margin-right: 5%;
+    }
+    .cards-div{
+        flex-flow: column wrap;
+    }
+}
