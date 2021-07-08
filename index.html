@@ -18,15 +18,17 @@
             <span class="elements-top-header">ARG$</span>
         </div>
         <div class="principal-header">
-            <img src="img/Cat.png" alt="cat">
-            <h1><span class="h1-span">Front</span>Cat&Dog</h1>
-            <img src="img/Dog.png" alt="dog">
+            <div class="div-logo">
+                <img src="img/Cat.png" alt="cat">
+                <h1><span class="h1-span">Front</span>Cat&Dog</h1>
+                <img src="img/Dog.png" alt="dog">
+            </div>
             <nav>
                 <ul class="ul-nav">
-                    <li><a href="#"><i class="fas fa-paw paw-nav"></i>Categorías</a></li>
-                    <li><a href="#"><i class="fas fa-paw paw-nav"></i>Pets</a></li>
-                    <li><a href="#"><i class="fas fa-paw paw-nav"></i>Nosotros</a></li>
-                    <li><a href="#"><i class="fas fa-paw paw-nav"></i>Contactanos</a></li>
+                    <li><a href="#">Categorías</a></li>
+                    <li><a href="#">Pets</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Contactanos</a></li>
                 </ul>
             </nav>
         </div>
@@ -42,7 +44,7 @@
         <section>
             <div class="products-div">
                 <i class="fas fa-paw paw"></i>
-                <h2>Productos Destacados</h2>
+                <h2 class="h2-products">Productos Destacados</h2>
                 <p>Comederos - Accesorios - Comida</p>
                 <div class="cards-div">
                     <div class="card">
@@ -63,8 +65,33 @@
                 </div>
             </div>
         </section>
+        <section class="form-section">
+            <h3 class="h3-contact">Contáctanos</h3>
+            <form action="" method="POST" class="contact-form">
+                <label for="fullname">
+                    <input type="text" name="name" id="fullname" placeholder="Nombre y apellido">
+                </label>
+                <label for="email">
+                    <input type="email" name="email" id="email" placeholder="Nombre y apellido">
+                </label>
+                <label for="telephone">
+                    <input type="tel" name="telephone" id="telephone" placeholder="Teléfono">
+                </label>
+                <div class="div-btn">
+                    <input type="reset" value="Resetear" class="reset-btn">
+                    <input type="submit" value="Enviar" class="send-btn">
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
+        <div class="newsletter-footer">
+            <p>Suscríbete para más novedades</p>
+            <form action="" method="POST">
+                <input type="email" placeholder="Ingresá tu correo electronico">
+                <input type="submit" value="Suscribirme">
+            </form>
+        </div>
         <div class="top-footer">
             <div class="contact-information">
                 <div class="all-footer-data">
